@@ -1,3 +1,6 @@
+## NOT A PROJECT- JUST A PRACTICE LESSON
+This is lesson activity  on how to set up a basic react router application 
+
 # React Router Basic Nav
 
 Topics:
