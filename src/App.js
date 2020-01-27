@@ -7,12 +7,20 @@ const App = () => (
   <div>
     <BrowserRouter >
         <Navigation />
-        <Route path="/" component={Home}></Route>
-        <Route path="/about" component={About}></Route>
-        <Route path="/contact" component={Contact}></Route>
+        <Route path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact}/>
 
 
     </BrowserRouter>
+
+    {/* <div>
+    
+    <Navigation />
+    <Route exact path="/" component={Home}/>
+    <Route exact path="/contact" component={Contact}/>
+    <Route path="/about" component={About}/>
+  </div> */}
 
 
 
