@@ -7,7 +7,11 @@ const App = () => (
   <div>
     <BrowserRouter >
         <Navigation />
-        <Route path="/" component={About}></Route>
+        <Route path="/" component={Home}></Route>
+        <Route path="/about" component={About}></Route>
+        <Route path="/contact" component={Contact}></Route>
+
+
     </BrowserRouter>
 
 
